@@ -1,0 +1,27 @@
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: goldenrod;
+  text-align: center;
+}
+
+button {
+  color: goldenrod;
+  border-color: goldenrod;
+}
+
+.text-link {
+  color: goldenrod
+}
+
+
+
+
+
+
+
+
+
