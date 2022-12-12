@@ -10,6 +10,7 @@ import { StudentComponent } from './student/student.component';
 import { ProfessorComponent } from './professor/professor.component';
 import { LogInComponent } from './auth/log-in/log-in.component';
 import { SignUpComponent } from './auth/sign-up/sign-up.component';
+import { ForgotPasswordComponent } from './auth/forgot-password/forgot-password.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SignUpComponent } from './auth/sign-up/sign-up.component';
     StudentComponent,
     ProfessorComponent,
     LogInComponent,
-    SignUpComponent
+    SignUpComponent,
+    ForgotPasswordComponent
   ],
   imports: [
     BrowserModule,

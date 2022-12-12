@@ -8,6 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class LogInComponent implements OnInit {
   signIn() {
     console.log('sign in button works')
+  };
+
+  forgotPassword() {
+    console.log('forgot password works')
   }
 
   constructor() { }
