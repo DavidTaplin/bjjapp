@@ -24,8 +24,11 @@ export class LogInComponent implements OnInit {
     }
 
 
-    // takes in the log in forms data and print to console
+    // takes in the log in forms data and saves to local storage
     signIn(formObj: NgForm) {
+      let data = { email: 'name@email.com', password: 'xyz123'}
+
+      localStorage.setItem('login data', JSON.stringify(data));
       console.log('submitted',formObj)
     };
 
