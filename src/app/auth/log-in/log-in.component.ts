@@ -20,10 +20,11 @@ export class LogInComponent implements OnInit {
 
 
   ngOnInit() {
-    //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
-    //Add 'implements OnInit' to the class.
+
     }
 
+
+    // takes in the log in forms data and print to console
     signIn(formObj: NgForm) {
       console.log('submitted',formObj)
     };
