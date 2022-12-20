@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-log-in',
@@ -6,17 +7,26 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./log-in.component.css']
 })
 export class LogInComponent implements OnInit {
-  signIn() {
-    console.log('sign in button works')
-  };
 
-  forgotPassword() {
-    console.log('forgot password works')
+
+
+
+
+
+  constructor() {
+
+
   }
 
-  constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
+    //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
+    //Add 'implements OnInit' to the class.
+    }
+
+    signIn(formObj: NgForm) {
+      console.log('submitted',formObj)
+    };
+
+
   }
-
-}

@@ -2,8 +2,12 @@ img{
   height: 600px;
 }
 
-form {
+section {
   color: goldenrod;
+}
+
+h1 {
+  text-align: center;
 }
 
 

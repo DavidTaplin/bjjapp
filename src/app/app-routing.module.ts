@@ -7,13 +7,16 @@ import { StudentComponent } from './student/student.component';
 import { ProfessorComponent } from './professor/professor.component';
 import { SignUpComponent } from './auth/sign-up/sign-up.component';
 import { LogInComponent } from './auth/log-in/log-in.component';
+import { ForgotPasswordComponent } from './auth/forgot-password/forgot-password.component';
+
 
 const routes: Routes = [
   {path: 'Home', component: HomeComponent},
   {path: 'Student', component: StudentComponent},
   {path: 'Professor', component: ProfessorComponent},
   {path: 'Sign-Up', component: SignUpComponent},
-  {path: 'Log-In', component: LogInComponent}
+  {path: 'Log-In', component: LogInComponent},
+  {path: 'forgot-password', component: ForgotPasswordComponent }
 
 
 
