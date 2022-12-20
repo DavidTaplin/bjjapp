@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-sign-up',
@@ -7,8 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SignUpComponent implements OnInit {
 
-  registerButton() {
-    console.log('register button works')
+  registerButton(formObj: NgForm) {
+    let data = { email: 'name@email.com', password: 'xyz123'}
+
+    localStorage.setItem('sign-up data', JSON.stringify(data));
+
+
+    console.log('register button works',formObj)
   }
 
   constructor() { }
